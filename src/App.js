@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import axios from "axios"
 import { Results } from "./components/Results"
 import { InstallButton } from "./components/InstallButton"
-import { positions, transitions, Provider as AlertProvider } from "react-alert"
+import { positions, Provider as AlertProvider } from "react-alert"
 import AlertTemplate from "react-alert-template-oldschool-dark"
 
 const options = {
