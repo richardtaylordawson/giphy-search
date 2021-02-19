@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "richardtaylordawson",
   "description": "Simple application built with Create React App that searches Giphy's open API.",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardtaylordawson/giphy-search.git"
