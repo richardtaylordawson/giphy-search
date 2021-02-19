@@ -86,14 +86,36 @@ button {
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid white;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
   h1 {
     text-align: left;
+    margin-bottom: 0;
+  }
+
+  input,
+  select {
+    margin-top: 40px;
   }
 
   .results img {
     width: 50%;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .hide-for-small {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 40px;
   }
 }

@@ -54,7 +54,9 @@ export const InstallButton = () => {
           }
         }}
       >
-        <button>Install +</button>
+        <button>
+          <span class="hide-for-small">Install</span> +
+        </button>
       </div>
     )
   }
