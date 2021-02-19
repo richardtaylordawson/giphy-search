@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  font-family: "Ranchers", cursive;
+}
+
+.App {
+  position: relative;
+}
+
+h1,
+h2 {
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid white;
+}
+
+select {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 20px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.results img {
+  margin-bottom: 10px;
+  width: 33.33333333%;
+}
+
+.no-gifs {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+pwa-install::part(openButton) {
+  display: none;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: left;
+  }
+
+  .results img {
+    width: 50%;
+  }
+}
