@@ -18,6 +18,10 @@ h2 {
   font-size: 60px;
 }
 
+h1 {
+  margin-top: 40px;
+}
+
 h2 {
   text-align: center;
 }
@@ -112,9 +116,7 @@ button {
   .hide-for-small {
     display: none;
   }
-}
 
-@media (max-width: 375px) {
   h1 {
     font-size: 40px;
   }
