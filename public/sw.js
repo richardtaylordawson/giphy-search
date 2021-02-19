@@ -1,5 +1,5 @@
-var cacheName = "rtd-giphy-search"
-var filesToCache = ["/", "/index.html", "/index.css", "/index.js"]
+var cacheName = "rtd-giphy-search-new"
+var filesToCache = ["/build/index.html", "/build/index.css", "/build/index.js"]
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
