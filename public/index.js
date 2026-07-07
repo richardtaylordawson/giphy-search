@@ -1,4 +1,12 @@
-// Register service worker
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js")
+  navigator.serviceWorker
+    .getRegistrations()
+    .then((registrations) => {
+      registrations.forEach((registration) => registration.unregister())
+    })
+    .catch(() => {})
+}
+
+if ("caches" in window) {
+  caches.delete("rtd-giphy-search").catch(() => {})
 }

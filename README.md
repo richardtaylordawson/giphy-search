@@ -5,6 +5,10 @@
 ## Run Project
 
 ```shell
-$ yarn
+$ yarn install
 $ yarn develop
 ```
+
+## View Project
+
+<https://giphy-search.richardtaylordawson.com>
